@@ -2497,7 +2497,7 @@ else
 
 all: modules
 
-modules:
+modules_install:
 	$(MAKE) ARCH=$(ARCH) CROSS_COMPILE=$(CROSS_COMPILE) -C $(KERNEL_SRC) M=$(shell pwd)  modules
 
 strip:
