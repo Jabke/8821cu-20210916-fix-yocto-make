@@ -2495,7 +2495,7 @@ endif
 
 else
 
-all: modules
+all: modules_install
 
 modules_install:
 	$(MAKE) ARCH=$(ARCH) CROSS_COMPILE=$(CROSS_COMPILE) -C $(KERNEL_SRC) M=$(shell pwd)  modules
