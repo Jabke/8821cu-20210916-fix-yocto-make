@@ -12,7 +12,7 @@
  * more details.
  *
  * The full GNU General Public License is included in this distribution in the
- * file called LICENSE.
+ * file called COPYING.
  *
  * Contact Information:
  * wlanfae <wlanfae@realtek.com>
